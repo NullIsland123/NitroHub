@@ -13,7 +13,7 @@
 [![Languages](https://img.shields.io/badge/Languages-15%20Built--in-0E8A16?style=flat-square)](#8-settings--system-tray)
 [![License](https://img.shields.io/badge/License-GPL--3.0-D23042?style=flat-square)](LICENSE)
 
-[Overview](#overview) · [Features](#features) · [Requirements](#requirements--compatibility) · [Installation](#installation--usage) · [Build from Source](#building-from-source) · [Project Structure](#project-structure) · [Troubleshooting](#troubleshooting--faq) · [Disclaimer](#disclaimer) · [License](#license)
+[Overview](#overview) · [Screenshots](#screenshots) · [Features](#features) · [Requirements](#requirements--compatibility) · [Installation](#installation--usage) · [Build from Source](#building-from-source) · [Project Structure](#project-structure) · [Troubleshooting](#troubleshooting--faq) · [Disclaimer](#disclaimer) · [License](#license)
 
 </div>
 
@@ -44,6 +44,30 @@ Instead of installing and running **Acer Care Center**, **NitroSense**, and **Ac
 - **Instant Startup & Non-Blocking UI** — Hardware inventory is cached locally and refreshed asynchronously; WMI calls, `powercfg.exe`, and performance counters run off the UI thread on a serialized hardware worker queue.
 - **Native Windows 11 Look & Feel** — Supports Light, Dark, and Follow-System themes with seamless DWM title bar coloring, DPI scaling (100%–300%), Snap Layouts, 15 built-in languages, and smooth double-buffered rendering.
 - **Sleep & Reboot Resilience** — Restores your saved 80% battery charge limit and display/lighting preferences after sign-in and automatically re-verifies firmware state after waking from sleep.
+
+<br />
+
+---
+
+<br />
+
+## Screenshots
+
+| Overview | Live Monitor |
+| :---: | :---: |
+| <img src="assets/Screenshots/overview.png" alt="NitroHub Overview" width="100%" /> | <img src="assets/Screenshots/monitor.png" alt="NitroHub Live Monitor" width="100%" /> |
+
+| Battery Management | Cooling & Power Tuning |
+| :---: | :---: |
+| <img src="assets/Screenshots/battery.png" alt="NitroHub Battery Management" width="100%" /> | <img src="assets/Screenshots/tuning.png" alt="NitroHub Fan and Power Tuning" width="100%" /> |
+
+| Keyboard Lighting | Support & Drivers |
+| :---: | :---: |
+| <img src="assets/Screenshots/keyboard.png" alt="NitroHub Keyboard Lighting" width="100%" /> | <img src="assets/Screenshots/support.png" alt="NitroHub Support and Drivers" width="100%" /> |
+
+| Other Features | Settings |
+| :---: | :---: |
+| <img src="assets/Screenshots/others.png" alt="NitroHub Other Features" width="100%" /> | <img src="assets/Screenshots/settings.png" alt="NitroHub Settings" width="100%" /> |
 
 <br />
 
@@ -199,7 +223,8 @@ NitroHub/
 ├── assets/
 │   ├── NitroHub.ico               # Multi-size app & system tray icon (up to 256x256)
 │   ├── NitroHubLogo.png           # Embedded application header logo
-│   └── NitroHubBanner.jpg         # GitHub README hero banner
+│   ├── NitroHubBanner.jpg         # GitHub README hero banner
+│   └── Screenshots/               # Application screenshots displayed in README.md
 ├── locales/
 │   ├── en-US.template.txt         # Template for contributing new language packs
 │   └── *.txt                      # 14 embedded UI translation packs (auto-discovered on build)
