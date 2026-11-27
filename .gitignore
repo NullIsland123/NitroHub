@@ -1,0 +1,18 @@
+# Build outputs and installers
+dist/
+*.exe
+*.pdb
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE / editor files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Windows system files
+Thumbs.db
+Desktop.ini

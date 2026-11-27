@@ -1,0 +1,15 @@
+* text=auto
+
+*.cs       text eol=crlf
+*.ps1      text eol=crlf
+*.iss      text eol=crlf
+*.manifest text eol=crlf
+*.md          text eol=lf
+locales/*.txt text eol=lf
+.gitignore    text eol=lf
+LICENSE       text eol=lf
+
+*.ico binary
+*.png binary
+*.jpg binary
+*.exe binary
