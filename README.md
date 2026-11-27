@@ -13,7 +13,7 @@
 [![Languages](https://img.shields.io/badge/Languages-15%20Built--in-0E8A16?style=flat-square)](#8-settings--system-tray)
 [![License](https://img.shields.io/badge/License-GPL--3.0-D23042?style=flat-square)](LICENSE)
 
-[Features](#features) · [Requirements](#requirements--compatibility) · [Installation](#installation--usage) · [Build from Source](#building-from-source) · [Troubleshooting](#troubleshooting--faq) · [Disclaimer](#disclaimer)
+[Overview](#overview) · [Features](#features) · [Requirements](#requirements--compatibility) · [Installation](#installation--usage) · [Build from Source](#building-from-source) · [Project Structure](#project-structure) · [Troubleshooting](#troubleshooting--faq) · [Disclaimer](#disclaimer) · [License](#license)
 
 </div>
 
